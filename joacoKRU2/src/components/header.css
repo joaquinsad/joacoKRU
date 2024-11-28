@@ -1,0 +1,11 @@
+.nav-links {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  gap: 20px;
+  background-color: rgb(0, 66, 66);
+}
+.main1 {
+  background-color: rgb(0, 50, 50);
+  text-align: center;
+  text-decoration: black;
+}
