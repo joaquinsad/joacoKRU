@@ -112,8 +112,9 @@ function Header() {
           path="/juegos_con_guia"
           element={
             <div className="main1">
-              <h1>ENTRENAMIENTOS</h1>
-              <h4>roblox,cs1.6</h4>
+              <h1>juegos</h1>
+              <h4>roblox</h4>
+              <h4>cs1.6</h4>
             </div>
           }
         />
