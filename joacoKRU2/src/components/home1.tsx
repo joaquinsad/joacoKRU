@@ -14,6 +14,15 @@ function Header() {
         <Link to="/contactos">
           <button>contactos</button>
         </Link>
+        <Link to="/juegos_con_guia">
+          <button>juegos con guia</button>
+        </Link>
+        <Link to="/guia">
+          <button>guia</button>
+        </Link>
+        <Link to="/entrenamientos">
+          <button>entrenamientos</button>
+        </Link>
       </nav>
 
       <Routes>
@@ -96,6 +105,37 @@ function Header() {
             <div className="main1">
               <h1>email:reales2esports@gmail.com</h1>
               <h1>mandanos un mensaje a nuestro correo electronico</h1>
+            </div>
+          }
+        />
+        <Route
+          path="/juegos_con_guia"
+          element={
+            <div className="main1">
+              <h1>ENTRENAMIENTOS</h1>
+              <h4>roblox,cs1.6</h4>
+            </div>
+          }
+        />
+        <Route
+          path="/guia"
+          element={
+            <div className="main1">
+              <h1>GUIA DEFINITIVAS A NUEVOS PLAYERS</h1>
+              <h4>EMPEZAR DE 1HORA A 4 HORAS MAXIMAS PONTECIALES</h4>
+              <h4>REVISA TUS CONFIGURACIONES PARA MAS RENDIMINETOS</h4>
+            </div>
+          }
+        />
+        <Route
+          path="/entrenamientos"
+          element={
+            <div className="main1">
+              <h1>entrenamientos</h1>
+              <h4>1 1hora + descanso</h4>
+              <h4>2 1hora + descanso</h4>
+              <h4>3 1hora + descanso</h4>
+              <h4>4 1hora + descanso</h4>
             </div>
           }
         />
